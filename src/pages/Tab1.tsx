@@ -1,22 +1,20 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import React, { useState } from 'react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonFab, IonFabButton, IonImg } from '@ionic/react';
+import { camera } from 'ionicons/icons';
+import { Camera, CameraResultType } from '@capacitor/camera';
 import './Tab1.css';
 
 const Tab1: React.FC = () => {
+
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Okumare</IonTitle>
+        <IonToolbar color='nuevo'>
+          <IonTitle color='light'>OkumareApp</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Okumare</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Okumare" />
+      <IonContent color='light'>
+        <img src='/assets/images/Recurso5.png'></img>
       </IonContent>
     </IonPage>
   );

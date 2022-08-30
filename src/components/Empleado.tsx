@@ -10,10 +10,6 @@ const Empleado: React.FC<{person: Person}> = ({person}) => {
             <IonAvatar slot="start">
                 <img src={person.url} />
             </IonAvatar>
-            <IonLabel>
-                <h2>{person.first_name} {person.last_name}</h2>
-                <p>{person.gender}</p>
-            </IonLabel>
         </IonItem>
     );
 }

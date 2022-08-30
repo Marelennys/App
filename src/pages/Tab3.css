@@ -1,0 +1,17 @@
+ion-img {
+    width: auto !important;
+    height: 50% !important;
+    padding-left: 10px !important;
+}
+
+ion-content{
+    --padding-start: 50px;
+    --padding-end: 50px;
+    --padding-bottom: 50px;
+    --padding-top: 50px;
+}
+
+ion-button{
+    --border-radius: 20px;
+    margin-bottom: 30px;
+}

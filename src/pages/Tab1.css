@@ -1,0 +1,15 @@
+img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+}
+
+ion-toolbar{
+    background-color: var(--ion-color-nuevo);
+}
+
+ion-content{
+    background-image: url(/public/assets/images/wp6225737.png);
+}
